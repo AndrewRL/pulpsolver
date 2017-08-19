@@ -38,11 +38,10 @@ class_model += pulp.lpSum([groups[grouping] for grouping in possible_groupings])
 class_model += pulp.lpSum([groups[grouping] for grouping in possible_groupings]) <= 5
 
 print('Constraining students...')
-constraints = []
 for student in range(len(data)):
-    constraints.append(pulp.lpSum([groups[grouping] for grouping in possible_groupings if student in grouping]) == 1)
+    class_model += pulp.lpSum([groups[grouping] for grouping in possible_groupings if student in grouping]) == 1
 
-class_model += constraints
+
 
 print('Calling solver...')
 class_model.solve(solver=pulp.COIN_CMD())
