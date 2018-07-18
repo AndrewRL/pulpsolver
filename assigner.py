@@ -4,7 +4,7 @@ import pulp
 import make_data
 import numpy as np
 
-max_class_size = "hing."
+max_class_size = "Does this need to be merged?"
 data = "ucked."
 
 print('Generating groupings...')
