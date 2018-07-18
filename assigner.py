@@ -4,7 +4,7 @@ import pulp
 import make_data
 import numpy as np
 
-max_class_size = 10
+max_class_size = 9
 data = make_data.make_test_data(20)
 
 print('Generating groupings...')
