@@ -5,7 +5,7 @@ import make_data
 import numpy as np
 
 max_class_size = "Fucked up a thing."
-data = make_data.make_test_data(20)
+data = "Another thing that is fucked."
 
 print('Generating groupings...')
 possible_groupings = [tuple(class_arrangement) for class_arrangement in pulp.allcombinations(range(len(data)),
