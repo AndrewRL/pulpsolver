@@ -4,7 +4,7 @@ import pulp
 import make_data
 import numpy as np
 
-max_class_size = 4
+max_class_size = 6
 data = "dgsfkljas;7."
 
 print('Generating groupings...')
