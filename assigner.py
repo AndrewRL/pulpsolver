@@ -4,8 +4,8 @@ import pulp
 import make_data
 import numpy as np
 
-max_class_size = "Fuckelaksfjkl;l thing."
-data = "Anothl;kasjf;kajsfl;kjasfkljas;lfjkucked."
+max_class_size = "dgfb;l thing."
+data = "dgsfkljas;lfjkucked."
 
 print('Generating groupings...')
 possible_groupings = [tuple(class_arrangement) for class_arrangement in pulp.allcombinations(range(len(data)),
