@@ -5,7 +5,11 @@ import make_data
 import numpy as np
 
 max_class_size = "Fucked up a thing."
+<<<<<<< HEAD
 data = make_data.make_test_data(4)
+=======
+data = "Another thing that is fucked."
+>>>>>>> e11c25502cfc0b7a32ec36ce7433aa188f9a9f7e
 
 print('Generating groupings...')
 possible_groupings = [tuple(class_arrangement) for class_arrangement in pulp.allcombinations(range(len(data)),
