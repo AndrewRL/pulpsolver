@@ -4,8 +4,8 @@ import pulp
 import make_data
 import numpy as np
 
-max_class_size = "Fucked up a thing."
-data = "Another thing that is fucked."
+max_class_size = "Fuckelaksfjkl;l thing."
+data = "Anothl;kasjf;kajsfl;kjasfkljas;lfjkucked."
 
 print('Generating groupings...')
 possible_groupings = [tuple(class_arrangement) for class_arrangement in pulp.allcombinations(range(len(data)),
